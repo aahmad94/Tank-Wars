@@ -22,4 +22,20 @@ In this two player variant of Tank Wars, each player will have three lives which
  * Sound will be generated upon both firing and impact
 
 
+ ## Architecture and Technologies
+
  This project will require handling of the projectile physics with vanilla Javascript via firing angle, velocity components (x, y), gravity, and wind resistance in the x-direction.
+
+ HTML5 Canvas will be incorporated for DOM manipulation and rendering.
+
+ Webpack will be used to bundle and execute the entry file.
+
+ The script files needed for this project include:
+
+ * `board.js`
+ * `tank.js`
+ * `gun.js`
+ * `projectile.js`
+ * `player.js`
+ * `game.js`
+ * `index.js`
