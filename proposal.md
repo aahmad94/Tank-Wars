@@ -21,8 +21,11 @@ In this two player variant of Tank Wars, each player will have three lives which
  * Wind will affect the horizontal acceleration component vector, otherwise at 0 m/(s * s)
  * Sound will be generated upon both firing and impact
 
+ ### Wireframes
 
- ## Architecture and Technologies
+ ![Tank Wars Wireframe](https://github.com/aahmad94/Tank-Wars/blob/master/docs/wf/wf_jsproj_tankwars.png)
+
+ ### Architecture and Technologies
 
  This project will require handling of the projectile physics with vanilla Javascript via firing angle, velocity components (x, y), gravity, and wind resistance in the x-direction.
 
