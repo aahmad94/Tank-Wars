@@ -35,7 +35,7 @@ In this two player variant of Tank Wars, each player will have three lives which
 
  The script files needed for this project include:
 
- * `board.js`: handle logic for creating and updating DOM elements
+ * `display.js`: handle logic for creating and updating DOM elements
  * `tank.js`: handle logic for tank movement
  * `gun.js`: handle logic for gun rotation and shot force
  * `projectile.js`: handle logic for projectile motion, whether the enemy was hit/deduct life
@@ -45,11 +45,11 @@ In this two player variant of Tank Wars, each player will have three lives which
 
 
  ### Implementation Timeline
-**Day 1**: Review HTML5/Canvas documentation, find seamless image for environment, create Board and Tank classes; implement rendering of environment (seamless tile image for ground).
+**Day 1**: Review HTML5/Canvas documentation, find seamless image for environment, create Display and Tank classes; implement rendering of environment (seamless tile image for ground).
 
 - [ ] Review Canvas
 - [x] Find environment seamless image
-- [ ] Create Board class, render environment
+- [ ] Create Display class, render environment
 - [ ] Create Tank class
 
 **Day 2**: Create Gun and Projectile classes take into account implementation of wind speed that will be determined in the Game class as well as number of lives available (Player class).
