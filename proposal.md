@@ -64,4 +64,4 @@ In this two player variant of Tank Wars, each player will have three lives which
 - [ ] Create Game class
 - [ ] Style game via Canvas
 
-**Day 5** Debug and prepare for project submission and that it's hosted properly  
+**Day 5** Debug and prepare for project submission (hosted properly)
