@@ -28,14 +28,40 @@ In this two player variant of Tank Wars, each player will have three lives which
 
  HTML5 Canvas will be incorporated for DOM manipulation and rendering.
 
- Webpack will be used to bundle and execute the entry file.
+ Webpack will be used to bundle script files
 
  The script files needed for this project include:
 
- * `board.js`
- * `tank.js`
- * `gun.js`
- * `projectile.js`
- * `player.js`
- * `game.js`
- * `index.js`
+ * `board.js`: handle logic for creating and updating DOM elements
+ * `tank.js`: handle logic for tank movement
+ * `gun.js`: handle logic for gun rotation and shot force
+ * `projectile.js`: handle logic for projectile motion, whether the enemy was hit/deduct life
+ * `player.js`:
+ * `game.js`: handles logic for game start, alternating players turns, wind conditions, and game end  
+ * `index.js`: instantiates Game class
+
+
+ ### Implementation Timeline
+**Day 1**: Review HTML5/Canvas documentation, find seamless image for environment, create Board and Tank classes; implement rendering of environment (seamless tile image for ground).
+
+- [ ] Review Canvas
+- [x] Find environment seamless image
+- [ ] Create Board class, render environment
+- [ ] Create Tank class
+
+**Day 2**: Create Gun and Projectile classes take into account implementation of wind speed that will be determined in the Game class as well as number of lives available (Player class).
+
+- [ ] create Gun class
+- [ ] Create Projectile class
+
+**Day 3**: Create Player class, implement controls for player interaction, integrate instructions into index.html
+
+- [ ] Create Player class
+- [ ] Implement controls (arrow keys/space bar)
+
+**Day 4**: Create Game class, ensure game play is flawless, style via Canvas
+
+- [ ] Create Game class
+- [ ] Style game via Canvas
+
+**Day 5** Debug and prepare for project submission and that it's hosted properly  
